@@ -1,0 +1,5 @@
+{
+  "name": "Smart Study RAG System",
+  "description": "A fully managed, client-side RAG (Retrieval-Augmented Generation) system for personalized learning using Google Gemini 2.5 Flash. Upload study notes, visualize topic distribution, and chat with your materials.",
+  "requestFramePermissions": []
+}
