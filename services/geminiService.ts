@@ -4,8 +4,7 @@ import { AnalysisResult, GeminiType, Message } from "../types";
 // Initialize the client
 // NOTE: In a real production app, API keys should be proxy-ed via a backend.
 // For this pure frontend demo, we access the env var directly.
-const apiKey = process.env.API_KEY || ''; 
-const ai = new GoogleGenAI({ apiKey });
+const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
 
 const MODEL_FLASH = 'gemini-2.5-flash';
 
